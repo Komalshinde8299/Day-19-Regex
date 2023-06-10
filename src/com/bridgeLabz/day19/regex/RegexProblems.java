@@ -44,6 +44,10 @@ public class RegexProblems {
         boolean result6 = Pattern.matches("(?=.*[A-Z])(?=.*[0-9]).{8,}", "K8omalS9hinde");
         System.out.println(result6);
 
+        //Rule4 – Has exactly 1 Special Character
+        boolean result7 = Pattern.matches("(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&+=]).{8,}", "K8omalS9hinde");
+        System.out.println(result7);
+
 
 
 
