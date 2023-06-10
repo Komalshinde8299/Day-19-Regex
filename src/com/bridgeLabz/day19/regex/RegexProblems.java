@@ -25,6 +25,17 @@ public class RegexProblems {
         boolean result3 = Pattern.matches("^(91)[ ][1-9][0-9]{9}", "91 7057757826");
         System.out.println(result3);
 
+        //Password
+        //Rule1
+        //
+        //– minimum 8
+        //
+        //Rule1 - minimum 8 Characters
+        boolean result4 = Pattern.matches("[a-z A-Z]{8,}", "KomalShinde");
+        System.out.println(result4);
+
+
+
 
 
     }
