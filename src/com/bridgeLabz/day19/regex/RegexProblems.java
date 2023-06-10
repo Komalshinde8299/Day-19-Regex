@@ -39,6 +39,12 @@ public class RegexProblems {
         System.out.println(result5);
 
 
+        //Rule3– Should have at least 1 numeric number in the password
+        //boolean result6 = Pattern.matches("(?=.*[A-Z])(?=.*[0-9])[a-zA-Z]{8,}", "K8omalS9hinde");
+        boolean result6 = Pattern.matches("(?=.*[A-Z])(?=.*[0-9]).{8,}", "K8omalS9hinde");
+        System.out.println(result6);
+
+
 
 
 
