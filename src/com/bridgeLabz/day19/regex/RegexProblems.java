@@ -13,6 +13,15 @@ public class RegexProblems {
         System.out.println(result);
 
 
+        //Code for adding Lastname
+        boolean result1 = Pattern.matches("^[A-Z][a-z]{3,}", "Shinde");
+        System.out.println(result1);
+
+        //Valid Email
+        boolean result2 = Pattern.matches("[a-z]{3,}[.][a-z]{3,}?@[a-z]{2,}[.][a-z]{2,}[.][a-z]{2,}?", "abc.xyz@bl.co.in");
+        System.out.println(result2);
+
+
 
     }
 }
