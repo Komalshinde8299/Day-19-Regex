@@ -31,8 +31,14 @@ public class RegexProblems {
         //– minimum 8
         //
         //Rule1 - minimum 8 Characters
-        boolean result4 = Pattern.matches("[a-z A-Z]{8,}", "KomalShinde");
+        boolean result4 = Pattern.matches("[a-z A-Z]{8,}", "komalshinde");
         System.out.println(result4);
+
+        //Rule2 - Should have at least 1 Upper Case
+        boolean result5 = Pattern.matches("(?=.*[A-Z])[a-z A-Z]{8,}", "KomalShinde");
+        System.out.println(result5);
+
+
 
 
 
