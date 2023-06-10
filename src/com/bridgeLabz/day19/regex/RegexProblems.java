@@ -21,6 +21,10 @@ public class RegexProblems {
         boolean result2 = Pattern.matches("[a-z]{3,}[.][a-z]{3,}?@[a-z]{2,}[.][a-z]{2,}[.][a-z]{2,}?", "abc.xyz@bl.co.in");
         System.out.println(result2);
 
+        //Moblie No
+        boolean result3 = Pattern.matches("^(91)[ ][1-9][0-9]{9}", "91 7057757826");
+        System.out.println(result3);
+
 
 
     }
